@@ -3,3 +3,6 @@ function isPalindrome(str){
   if(str[0] !== str[str.length - 1]) return false;
   return isPalindrome(str.slice(1, str.length - 1));
 }
+
+console.log(isPalindrome('racecar'));
+console.log(isPalindrome('benis'));

@@ -12,3 +12,8 @@ function areThereDuplicates(...args) {
   }
   return false;
 }
+
+
+let a = areThereDuplicates(1, 2, 3, 4);
+
+console.log(a);
